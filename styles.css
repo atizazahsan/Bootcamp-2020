@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-image: linear-gradient(to right , #0f0c29 , #302b63 , #24243e );
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.info {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 3rem;
+}
+
+h1 {
+    color: white;
+    font-size: 4rem ;
+}
+
+.info-text {
+    color: white;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+span {
+    color : white;
+}
